@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import LandingPage from './components/LandingPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUse from './pages/TermsOfUse';
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/register" element={<Register />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
