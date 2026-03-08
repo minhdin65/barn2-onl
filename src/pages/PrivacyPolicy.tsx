@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              barn2.onl ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website barn2.onl.
+              barn2.vercel.app ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website barn2.vercel.app.
             </p>
           </section>
 
@@ -67,7 +67,7 @@ export default function PrivacyPolicy() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">7. Contact Us</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              If you have questions about this Privacy Policy, please contact us at support@barn2.onl.
+              If you have questions about this Privacy Policy, please contact us at support@barn2.vercel.app.
             </p>
           </section>
         </div>

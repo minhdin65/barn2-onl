@@ -15,10 +15,10 @@
 
 | Secret Name      | Giá trị (lấy từ CyberPanel)                    |
 |------------------|------------------------------------------------|
-| `FTP_SERVER`     | IP server hoặc domain (vd: `barn2.onl`)        |
+| `FTP_SERVER`     | IP server hoặc domain (vd: `barn2.vercel.app`)        |
 | `FTP_USERNAME`   | Username FTP/SFTP                              |
 | `FTP_PASSWORD`   | Password FTP/SFTP                              |
-| `FTP_REMOTE_PATH`| Đường dẫn thư mục web (vd: `/home/username/barn2.onl/public_html`) |
+| `FTP_REMOTE_PATH`| Đường dẫn thư mục web (vd: `/home/username/barn2.vercel.app/public_html`) |
 | `FTP_PORT`       | (Tùy chọn) Port FTP, mặc định `21`             |
 
 ### Lấy thông tin FTP từ CyberPanel

@@ -88,13 +88,13 @@ export const Footer = () => (
         <div>
           <h4 className="font-bold text-lg mb-8">Contact</h4>
           <ul className="space-y-4 text-slate-600">
-            <li>Email: support@barn2.onl</li>
-            <li>Website: barn2.onl</li>
+            <li>Email: support@barn2.vercel.app</li>
+            <li>Website: barn2.vercel.app</li>
           </ul>
         </div>
       </div>
       <div className="pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-400">
-        <p>© 2025 barn2.onl. All rights reserved. Designed in 2025.</p>
+        <p>© 2025 barn2.vercel.app. All rights reserved. Designed in 2025.</p>
         <p className="flex items-center gap-2">
           Products distributed by 
           <a href="https://barn2.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 font-bold hover:text-[var(--color-barn2-blue)]">Barn2 Plugins</a>.

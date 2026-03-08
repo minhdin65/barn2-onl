@@ -103,7 +103,7 @@ const Features = () => {
     {
       icon: <Shield className="w-7 h-7 text-[var(--color-barn2-blue)]" />,
       title: "Expert Support",
-      desc: "Our barn2.onl team is ready to assist you 24/7 with comprehensive documentation."
+      desc: "Our barn2.vercel.app team is ready to assist you 24/7 with comprehensive documentation."
     }
   ];
 
@@ -249,9 +249,9 @@ const BundleSection = () => (
 );
 
 const testimonials = [
-  { quote: "barn2.onl has completely transformed how customers interact with my store. Revenue increased 30% within just one month of use.", name: "Sarah M.", role: "WooCommerce Store Owner" },
+  { quote: "barn2.vercel.app has completely transformed how customers interact with my store. Revenue increased 30% within just one month of use.", name: "Sarah M.", role: "WooCommerce Store Owner" },
   { quote: "The best investment I've made for my online business. Setup was straightforward and the results speak for themselves.", name: "James K.", role: "E-commerce Manager" },
-  { quote: "Outstanding plugins and exceptional support. barn2.onl has become an essential part of our workflow.", name: "Emily R.", role: "Digital Agency Owner" },
+  { quote: "Outstanding plugins and exceptional support. barn2.vercel.app has become an essential part of our workflow.", name: "Emily R.", role: "Digital Agency Owner" },
 ];
 
 const Testimonials = () => (
@@ -300,7 +300,7 @@ export default function LandingPage() {
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-5xl mb-8">Ready to Boost Your Sales?</h2>
             <p className="text-2xl text-slate-600 mb-12 leading-relaxed">
-              Don&apos;t let customers leave because of a hard-to-use website. Equip your store with the best plugins from barn2.onl today.
+              Don&apos;t let customers leave because of a hard-to-use website. Equip your store with the best plugins from barn2.vercel.app today.
             </p>
             <a 
               href={AFFILIATE_LINK}

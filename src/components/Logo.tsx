@@ -16,7 +16,7 @@ const sizes = {
 const LogoContent: React.FC<{ size: 'sm' | 'md' | 'lg'; className?: string }> = ({ size, className = '' }) => (
   <span className={`font-display font-bold tracking-tight ${sizes[size]} ${className}`}>
     <span className="text-[var(--color-barn2-blue)]">barn2</span>
-    <span className="text-[var(--color-barn2-orange)]">.onl</span>
+    <span className="text-[var(--color-barn2-orange)]">.vercel.app</span>
   </span>
 );
 

@@ -12,7 +12,7 @@ export default function Disclaimer() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">1. General Information</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              The information provided by barn2.onl ("we," "us," or "our") on this website is for general informational purposes only. All information is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the website.
+              The information provided by barn2.vercel.app ("we," "us," or "our") on this website is for general informational purposes only. All information is provided in good faith; however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the website.
             </p>
           </section>
 
@@ -64,7 +64,7 @@ export default function Disclaimer() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">8. Contact Us</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              If you have any questions about this Disclaimer, please contact us at support@barn2.onl.
+              If you have any questions about this Disclaimer, please contact us at support@barn2.vercel.app.
             </p>
           </section>
         </div>

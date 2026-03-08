@@ -37,7 +37,7 @@ export default function Register() {
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-16">
         <div className="text-center max-w-xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            barn2.onl
+            barn2.vercel.app
           </h1>
           <p className="text-xl text-slate-600 mb-12 leading-relaxed">
             Professional WooCommerce solutions. Get access to the best plugins for your online store.
@@ -53,7 +53,7 @@ export default function Register() {
         </div>
       </main>
 
-      {/* Cookie consent banner - fixed at bottom like barn2.onl/bam */}
+      {/* Cookie consent banner - fixed at bottom like barn2.vercel.app/bam */}
       {!cookiesAccepted && (
         <div 
           className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t border-slate-200 px-4 py-4 shadow-lg z-50"

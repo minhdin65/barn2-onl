@@ -12,7 +12,7 @@ export default function TermsOfUse() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              By accessing and using barn2.onl ("the Website"), you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our website.
+              By accessing and using barn2.vercel.app ("the Website"), you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our website.
             </p>
           </section>
 
@@ -34,7 +34,7 @@ export default function TermsOfUse() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">3. Intellectual Property</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              The content on this Website, including text, graphics, logos, and images, is the property of barn2.onl or its content suppliers and is protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our prior written consent.
+              The content on this Website, including text, graphics, logos, and images, is the property of barn2.vercel.app or its content suppliers and is protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our prior written consent.
             </p>
           </section>
 
@@ -62,7 +62,7 @@ export default function TermsOfUse() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">7. Limitation of Liability</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              To the fullest extent permitted by law, barn2.onl shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Website.
+              To the fullest extent permitted by law, barn2.vercel.app shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Website.
             </p>
           </section>
 
@@ -76,7 +76,7 @@ export default function TermsOfUse() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-4">9. Contact</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              For questions about these Terms of Use, please contact us at support@barn2.onl.
+              For questions about these Terms of Use, please contact us at support@barn2.vercel.app.
             </p>
           </section>
         </div>
