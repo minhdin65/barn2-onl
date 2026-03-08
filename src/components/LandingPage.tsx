@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle2, ArrowRight, Star, Zap, Layout, Shield } from 'lucide-react';
 import { ImageWithFallback } from './ImageWithFallback';
@@ -280,6 +280,14 @@ const Testimonials = () => (
 );
 
 export default function LandingPage() {
+  useEffect(() => {
+    const hash = window.location.hash?.slice(1);
+    if (hash) {
+      const el = document.getElementById(hash);
+      if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+    }
+  }, []);
+
   return (
     <PageLayout>
       <main>

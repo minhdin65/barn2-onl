@@ -1,10 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Shield } from 'lucide-react';
 import { Logo } from './Logo';
 import { AFFILIATE_LINK } from '../lib/constants';
 
-export const Navbar = () => (
+const scrollToSection = (id: string) => {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+export const Navbar = () => {
+  const { pathname } = useLocation();
+  const isHome = pathname === '/';
+
+  const navLinkClass = "text-sm font-semibold text-slate-700 hover:text-[var(--color-barn2-blue)] transition-colors";
+
+  return (
   <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-slate-200">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-20 items-center">
@@ -12,9 +23,19 @@ export const Navbar = () => (
           <Logo size="md" />
         </div>
         <div className="hidden md:flex items-center gap-8">
-          <Link to="/#features" className="text-sm font-semibold text-slate-700 hover:text-[var(--color-barn2-blue)] transition-colors">Features</Link>
-          <Link to="/#plugins" className="text-sm font-semibold text-slate-700 hover:text-[var(--color-barn2-blue)] transition-colors">Plugins</Link>
-          <Link to="/#testimonials" className="text-sm font-semibold text-slate-700 hover:text-[var(--color-barn2-blue)] transition-colors">Reviews</Link>
+          {isHome ? (
+            <>
+              <a href="#features" onClick={(e) => { e.preventDefault(); scrollToSection('features'); }} className={navLinkClass}>Features</a>
+              <a href="#plugins" onClick={(e) => { e.preventDefault(); scrollToSection('plugins'); }} className={navLinkClass}>Plugins</a>
+              <Link to="/reviews" className={navLinkClass}>Reviews</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/#features" className={navLinkClass}>Features</Link>
+              <Link to="/#plugins" className={navLinkClass}>Plugins</Link>
+              <Link to="/reviews" className={navLinkClass}>Reviews</Link>
+            </>
+          )}
           <a 
             href={AFFILIATE_LINK}
             target="_blank"
@@ -27,7 +48,8 @@ export const Navbar = () => (
       </div>
     </div>
   </nav>
-);
+  );
+};
 
 export const AffiliateDisclosure = () => (
   <div className="bg-slate-50 py-10 border-t border-slate-200">
