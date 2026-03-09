@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- REDIRECT v2 | Có gclid hoặc gad_source=1 → barn2 ref. Không có → trang chủ. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="NOINDEX, NOFOLLOW" />
+  <title>Redirecting...</title>
+</head>
+<body>
+  <script type="text/javascript">
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var gclid = params.get('gclid');
+      var gadSource = params.get('gad_source');
+      var refUrl = 'https://barn2.com/ref/1461/';
+
+      if (gclid || gadSource === '1') {
+        // Có gclid hoặc gad_source=1 = từ Google Ads → redirect sang barn2
+        window.location.replace(refUrl);
+      } else {
+        // Không gclid (bot, direct) → về trang chủ
+        window.location.replace('/');
+      }
+    })();
+  </script>
+  <p>Redirecting...</p>
+</body>
+</html>
