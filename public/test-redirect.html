@@ -3,28 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test Redirect</title>
+  <title>Links</title>
 </head>
 <body>
-  <h1>Test Chuyển hướng /register</h1>
-  <p id="info">Đang kiểm tra...</p>
-  <ul>
-    <li><a href="/register?gclid=test123">/register?gclid=test123</a> → barn2.com</li>
-    <li><a href="/register?gad_source=1">/register?gad_source=1</a> → barn2.com</li>
-    <li><a href="/register">/register</a> (không params) → trang chủ</li>
-  </ul>
-  <hr>
-  <p><strong>Test trực tiếp:</strong> Mở các link trên trong tab mới hoặc truy cập:</p>
-  <p><code>https://barn2.vercel.app/register?gclid=test</code></p>
-  <script>
-    var q = new URLSearchParams(window.location.search);
-    if (window.location.pathname.includes('register')) {
-      var gclid = q.get('gclid');
-      var gadSource = q.get('gad_source');
-      document.getElementById('info').innerHTML = 
-        'gclid=' + (gclid || 'null') + ', gad_source=' + (gadSource || 'null') + 
-        '<br>→ Sẽ redirect: ' + (gclid || gadSource === '1' ? 'barn2.com' : 'trang chủ');
-    }
-  </script>
+  <p><a href="/register">/register</a></p>
 </body>
 </html>
