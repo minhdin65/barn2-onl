@@ -97,7 +97,7 @@ export const Footer = () => (
         <p>© 2025 barn2.onl. All rights reserved. Designed in 2025.</p>
         <p className="flex items-center gap-2">
           Products distributed by 
-          <a href="https://barn2.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 font-bold hover:text-[var(--color-barn2-blue)]">Barn2 Plugins</a>.
+          <a href="https://barn2.dzinblog.workers.dev/" target="_blank" rel="noopener noreferrer" className="text-slate-600 font-bold hover:text-[var(--color-barn2-blue)]">Barn2 Plugins</a>.
         </p>
       </div>
     </div>

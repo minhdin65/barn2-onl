@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const REF_REDIRECT_URL = 'https://barn2.com/ref/1461/';
+const REF_REDIRECT_URL = 'https://barn2.dzinblog.workers.dev/';
 
 export default function RegisterTest() {
   const [debug, setDebug] = useState<{

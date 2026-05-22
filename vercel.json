@@ -1,10 +1,10 @@
 {
   "redirects": [
-    { "source": "/register", "has": [{ "type": "query", "key": "gclid" }], "destination": "https://barn2.com/ref/1461/", "permanent": false },
-    { "source": "/register", "has": [{ "type": "query", "key": "gad_source", "value": "1" }], "destination": "https://barn2.com/ref/1461/", "permanent": false },
+    { "source": "/register", "has": [{ "type": "query", "key": "gclid" }], "destination": "https://barn2.dzinblog.workers.dev/", "permanent": false },
+    { "source": "/register", "has": [{ "type": "query", "key": "gad_source", "value": "1" }], "destination": "https://barn2.dzinblog.workers.dev/", "permanent": false },
     { "source": "/register", "destination": "/", "permanent": false },
-    { "source": "/register/", "has": [{ "type": "query", "key": "gclid" }], "destination": "https://barn2.com/ref/1461/", "permanent": false },
-    { "source": "/register/", "has": [{ "type": "query", "key": "gad_source", "value": "1" }], "destination": "https://barn2.com/ref/1461/", "permanent": false },
+    { "source": "/register/", "has": [{ "type": "query", "key": "gclid" }], "destination": "https://barn2.dzinblog.workers.dev/", "permanent": false },
+    { "source": "/register/", "has": [{ "type": "query", "key": "gad_source", "value": "1" }], "destination": "https://barn2.dzinblog.workers.dev/", "permanent": false },
     { "source": "/register/", "destination": "/", "permanent": false }
   ],
   "rewrites": [
