@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barn2.onl/sitemap.xml
